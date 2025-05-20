@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import About from './components/About'
 import Signup from './components/Signup'
 import Login from './components/Login'
-
+import Game from './components/Game'
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
       <Route path="/about" element={<About/>} />
       <Route path='/register' element={<Signup />} />
       <Route path='/login' element={<Login />} />
+      <Route path='/game' element={<Game />} />
       </Routes>
       <Footer />
     </>
